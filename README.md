@@ -3,7 +3,7 @@ A sample project explaining the usage of singleton object to hold global game st
 
 
 ### Usage : 
-Import the package [Particle-System-Unity/Package/Particle_System.unitypackage](https://github.com/BharathVishal/Particle-System-Unity/blob/master/Package/Particle_System.unitypackage) from Unity (or) open the project under 
+Import the package [Unity-Singleton/Package/Unity Singleton.unitypackage](https://github.com/BharathVishal/Unity-Singleton/blob/master/Package/Unity%20Singleton.unitypackage) from Unity (or) open the project under 
 [Unity-Singleton/Source Project/](https://github.com/BharathVishal/Unity-Singleton/tree/master/Source%20Project/Unity%20Singleton).
 
 1. The Singleton_Controller class holds the global game state consistently during scene switches.
