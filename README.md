@@ -16,7 +16,7 @@ Import the package [Unity-Singleton/Package/Unity Singleton.unitypackage](https:
 
 
 ### Preview : 
-![Alt Text](https://github.com/BharathVishal/Bottom-Up-Particle-System-GMS/blob/master/Preview%20GIF/preview-gif.gif)
+![Alt Text](https://github.com/BharathVishal/Unity-Singleton/blob/master/Preview%20GIFs/1.gif)
 
 
 
