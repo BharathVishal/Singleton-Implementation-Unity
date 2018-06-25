@@ -16,7 +16,9 @@ Import the package [Unity-Singleton/Package/Unity Singleton.unitypackage](https:
 
 
 ### Preview : 
-2018
+![Alt Text](https://github.com/BharathVishal/Bottom-Up-Particle-System-GMS/blob/master/Preview%20GIF/preview-gif.gif)
+
+
 
 © 2018. Developed by Bharath Vishal G (https://github.com/BharathVishal).
 
