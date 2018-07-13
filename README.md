@@ -1,4 +1,4 @@
-# Unity Singleton
+﻿# Unity Singleton
 A sample project explaining the usage of singleton object to hold global game state.
 
 
