@@ -15,6 +15,10 @@ Import the package [Unity-Singleton/Package/Unity Singleton.unitypackage](https:
 2018
 
 
+### IDE :
+Unity 2018.2.0f2. 
+
+
 ### Preview : 
 ![Alt Text](https://github.com/BharathVishal/Unity-Singleton/blob/master/Preview%20GIFs/1.gif)
 
