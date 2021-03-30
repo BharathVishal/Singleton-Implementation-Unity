@@ -153,3 +153,14 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.ide.visualstudio from version 2.0.5 to 2.0.7
   com.unity.timeline from version 1.2.6 to 1.4.6
+
+=== Mon Mar 29 09:07:04 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 2.0.7 to 3.0.5
+  com.unity.purchasing from version 2.2.2 to 3.0.1
+  com.unity.textmeshpro from version 3.0.1 to 3.0.4
+  com.unity.timeline from version 1.4.6 to 1.5.2
