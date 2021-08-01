@@ -198,3 +198,12 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.purchasing from version 3.2.1 to 3.2.2
   com.unity.test-framework from version 1.1.24 to 1.1.27
+
+=== Sun Aug  1 13:35:41 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.5.7 to 1.7.1
+  com.unity.timeline from version 1.5.5 to 1.5.6
