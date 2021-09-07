@@ -215,3 +215,13 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.xr.legacyinputhelpers from version 2.1.7 to 2.1.8
+
+=== Tue Sep  7 10:02:50 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ads from version 3.7.1 to 3.7.5
+  com.unity.ide.visualstudio from version 2.0.9 to 2.0.11
+  com.unity.purchasing from version 3.2.2 to 3.2.3
