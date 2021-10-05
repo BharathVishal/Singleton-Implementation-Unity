@@ -225,3 +225,14 @@ The following packages were updated:
   com.unity.ads from version 3.7.1 to 3.7.5
   com.unity.ide.visualstudio from version 2.0.9 to 2.0.11
   com.unity.purchasing from version 3.2.2 to 3.2.3
+
+=== Tue Oct  5 13:10:29 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.analytics from version 3.5.3 to 3.6.11
+  com.unity.collab-proxy from version 1.7.1 to 1.9.0
+  com.unity.ide.vscode from version 1.2.3 to 1.2.4
+  com.unity.test-framework from version 1.1.27 to 1.1.29
