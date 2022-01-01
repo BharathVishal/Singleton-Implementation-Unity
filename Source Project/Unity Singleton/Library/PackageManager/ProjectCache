@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637751534541796398
-    m_Hash: 1575436354
+      ticks: 637762740620304810
+    m_Hash: 4183965610
   m_LockFileStatus:
     m_FilePath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source
       Project/Unity Singleton/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637751534696921403
-    m_Hash: 488302373
+      ticks: 637762740937418227
+    m_Hash: 1336220626
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source Project/Unity
   Singleton/Packages
-m_EditorVersion: 2021.2.6f1 (8c4e826ba445)
+m_EditorVersion: 2021.2.7f1 (6bd9e232123f)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -500,9 +500,11 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.0.9
     compatible:
     - 3.0.7
-    verified: 3.0.7
+    - 3.0.9
+    verified: 3.0.9
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1061,13 +1063,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.6.2
+- packageId: com.unity.timeline@1.6.3
   testable: 0
   isDirectDependency: 1
-  version: 1.6.2
+  version: 1.6.3
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.timeline@1.6.2
+    Project\Unity Singleton\Library\PackageCache\com.unity.timeline@1.6.3
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1152,7 +1154,6 @@ m_ResolvedPackages:
     - 1.6.3
     - 1.7.0-pre.1
     compatible:
-    - 1.6.2
     - 1.6.3
     - 1.7.0-pre.1
     verified: 1.6.3
@@ -1189,16 +1190,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637643657750000000
+  datePublishedTicks: 637703491050000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d0d66dff04e2ee077546a894ea0af2b750055b32
+    revision: 527d3ba73eae5d77407d8300c31dd62770a7409f
     path: 
   unityLifecycle:
-    version: 1.6.2
+    version: 1.6.3
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
