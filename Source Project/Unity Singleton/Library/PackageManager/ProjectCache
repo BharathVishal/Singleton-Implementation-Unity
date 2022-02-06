@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637762740620304810
-    m_Hash: 4183965610
+      ticks: 637797246907885055
+    m_Hash: 2375441255
   m_LockFileStatus:
     m_FilePath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source
       Project/Unity Singleton/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637762740937418227
-    m_Hash: 1336220626
+      ticks: 637797247569327879
+    m_Hash: 2716085420
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source Project/Unity
   Singleton/Packages
-m_EditorVersion: 2021.2.7f1 (6bd9e232123f)
+m_EditorVersion: 2021.2.10f1 (ee872746220e)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -325,13 +325,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.6.12
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.15.4
+- packageId: com.unity.collab-proxy@1.15.7
   testable: 0
   isDirectDependency: 1
-  version: 1.15.4
+  version: 1.15.7
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.collab-proxy@1.15.4
+    Project\Unity Singleton\Library\PackageCache\com.unity.collab-proxy@1.15.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -393,7 +393,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.4
     - 1.15.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
@@ -441,24 +440,24 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637726568460000000
+  datePublishedTicks: 637744672890000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1275603954ad33bee601fe2c9a3c787b3d4e4c6b
+    revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
     path: 
   unityLifecycle:
-    version: 1.15.4
+    version: 1.15.7
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.7
+- packageId: com.unity.ide.rider@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.9
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.ide.rider@3.0.7
+    Project\Unity Singleton\Library\PackageCache\com.unity.ide.rider@3.0.9
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -502,7 +501,6 @@ m_ResolvedPackages:
     - 3.0.7
     - 3.0.9
     compatible:
-    - 3.0.7
     - 3.0.9
     verified: 3.0.9
   dependencies:
@@ -521,16 +519,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637572251600000000
+  datePublishedTicks: 637762012950000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 3007c42a679bbe2c082c276e8d79279110964553
+    revision: bbc029723f4d157f759dba0f2d438dfcec2e73eb
     path: 
   unityLifecycle:
-    version: 3.0.7
+    version: 3.0.9
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.12
   testable: 0
@@ -668,13 +666,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
-- packageId: com.unity.purchasing@4.1.1
+- packageId: com.unity.purchasing@4.1.2
   testable: 0
   isDirectDependency: 1
-  version: 4.1.1
+  version: 4.1.2
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.purchasing@4.1.1
+    Project\Unity Singleton\Library\PackageCache\com.unity.purchasing@4.1.2
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -749,7 +747,6 @@ m_ResolvedPackages:
     - 4.1.1
     - 4.1.2
     compatible:
-    - 4.1.1
     - 4.1.2
     verified: 4.1.2
   dependencies:
@@ -795,16 +792,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637714474540000000
+  datePublishedTicks: 637738064760000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: 3234a0fb16eb34ac949491c4855256bba159c59c
+    revision: c73a3b5ce4e0a8eb429214ad6702ceb8ece5fabe
     path: 
   unityLifecycle:
-    version: 4.1.1
+    version: 4.1.2
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
