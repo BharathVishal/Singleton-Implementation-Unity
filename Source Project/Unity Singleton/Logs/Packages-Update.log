@@ -301,3 +301,14 @@ The following packages were updated:
   com.unity.purchasing from version 4.1.2 to 4.1.3
   com.unity.test-framework from version 1.1.29 to 1.1.31
   com.unity.xr.legacyinputhelpers from version 2.1.8 to 2.1.9
+
+=== Thu May 26 16:24:37 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.15.15 to 1.15.16
+  com.unity.ide.rider from version 3.0.13 to 3.0.14
+  com.unity.ide.visualstudio from version 2.0.14 to 2.0.15
+  com.unity.purchasing from version 4.1.3 to 4.1.4
