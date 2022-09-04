@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637956224515925542
-    m_Hash: 939397200
+      ticks: 637978222929057916
+    m_Hash: 1505272358
   m_LockFileStatus:
     m_FilePath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source
       Project/Unity Singleton/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637956225104802979
-    m_Hash: 3468150910
+      ticks: 637978222997407373
+    m_Hash: 2188810584
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source Project/Unity
   Singleton/Packages
-m_EditorVersion: 2021.3.7f1 (24e8595d6d43)
+m_EditorVersion: 2021.3.9f1 (ad3870b89536)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -195,12 +195,14 @@ m_ResolvedPackages:
     - 4.0.1
     - 4.1.0
     - 4.2.1
+    - 4.3.0
     compatible:
     - 3.7.5
     - 4.0.0
     - 4.0.1
     - 4.1.0
     - 4.2.1
+    - 4.3.0
     verified: 3.7.5
   dependencies:
   - name: com.unity.ugui
@@ -333,13 +335,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.6.12
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.17.1
+- packageId: com.unity.collab-proxy@1.17.2
   testable: 0
   isDirectDependency: 1
-  version: 1.17.1
+  version: 1.17.2
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.collab-proxy@1.17.1
+    Project\Unity Singleton\Library\PackageCache\com.unity.collab-proxy@1.17.2
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -406,6 +408,7 @@ m_ResolvedPackages:
     - 1.15.18
     - 1.17.0
     - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -417,7 +420,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -428,7 +431,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.1
+    verified: 1.17.2
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -464,16 +467,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637916644700000000
+  datePublishedTicks: 637937432480000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 2346af88036ac7256d898e0bb536f60220ce6e18
+    revision: 14d129dcc778f8ea2fdf9d0240b47924e4f0dbb1
     path: 
   unityLifecycle:
-    version: 1.17.1
+    version: 1.17.2
     nextVersion: 
 - packageId: com.unity.ide.rider@3.0.15
   testable: 0
@@ -699,13 +702,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.purchasing@4.2.1
+- packageId: com.unity.purchasing@4.4.0
   testable: 0
   isDirectDependency: 1
-  version: 4.2.1
+  version: 4.4.0
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.purchasing@4.2.1
+    Project\Unity Singleton\Library\PackageCache\com.unity.purchasing@4.4.0
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -785,9 +788,13 @@ m_ResolvedPackages:
     - 4.2.0-pre.1
     - 4.2.0-pre.2
     - 4.2.1
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
     compatible:
-    - 4.2.1
-    verified: 4.2.1
+    - 4.4.0
+    - 4.4.1
+    verified: 4.4.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -823,7 +830,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.services.analytics
-    version: 4.0.1
+    version: 4.1.0
   keywords:
   - purchasing
   - iap
@@ -837,16 +844,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637915167450000000
+  datePublishedTicks: 637946151890000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: 258ef39fae29e6ea64d6813cd615b9424e3a9955
+    revision: 94c5a447a90fc84222a89d4cffe216b3cfba7ef6
     path: 
   unityLifecycle:
-    version: 4.2.1
+    version: 4.4.0
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -902,15 +909,17 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1322,13 +1331,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.xr.legacyinputhelpers@2.1.9
+- packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 1
-  version: 2.1.9
+  version: 2.1.10
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
+    Project\Unity Singleton\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -1372,9 +1381,10 @@ m_ResolvedPackages:
     - 2.1.7
     - 2.1.8
     - 2.1.9
+    - 2.1.10
     compatible:
-    - 2.1.9
-    verified: 2.1.9
+    - 2.1.10
+    verified: 2.1.10
   dependencies:
   - name: com.unity.modules.vr
     version: 1.0.0
@@ -1406,16 +1416,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637812095140000000
+  datePublishedTicks: 637958908030000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-    revision: 8e4581a11c14b64d41aabb67f51b0d8a0c75f5c4
+    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
     path: 
   unityLifecycle:
-    version: 2.1.9
+    version: 2.1.10
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3328,13 +3338,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.4.2
     nextVersion: 
-- packageId: com.unity.services.analytics@4.0.1
+- packageId: com.unity.services.analytics@4.1.0
   testable: 0
   isDirectDependency: 0
-  version: 4.0.1
+  version: 4.1.0
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.services.analytics@4.0.1
+    Project\Unity Singleton\Library\PackageCache\com.unity.services.analytics@4.1.0
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -3367,9 +3377,10 @@ m_ResolvedPackages:
     - 4.0.0-pre.3
     - 4.0.0
     - 4.0.1
+    - 4.1.0
     compatible:
-    - 4.0.1
-    verified: 4.0.1
+    - 4.1.0
+    verified: 4.1.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3400,16 +3411,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637889192380000000
+  datePublishedTicks: 637938214040000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: dac564bca5dae194afa944a6b22849513d412ec2
+    revision: ce8dc514c456314c27bb9b989b588f1966853df6
     path: 
   unityLifecycle:
-    version: 4.0.1
+    version: 4.1.0
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
