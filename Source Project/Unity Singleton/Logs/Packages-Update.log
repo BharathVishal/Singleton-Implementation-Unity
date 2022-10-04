@@ -342,3 +342,11 @@ The following packages were updated:
   com.unity.collab-proxy from version 1.17.1 to 1.17.2
   com.unity.purchasing from version 4.2.1 to 4.4.0
   com.unity.xr.legacyinputhelpers from version 2.1.9 to 2.1.10
+
+=== Tue Oct  4 10:52:08 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.purchasing from version 4.4.0 to 4.4.1

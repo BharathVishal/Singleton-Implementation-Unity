@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637978222929057916
-    m_Hash: 1505272358
+      ticks: 638004577284175417
+    m_Hash: 1891488328
   m_LockFileStatus:
     m_FilePath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source
       Project/Unity Singleton/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637978222997407373
-    m_Hash: 2188810584
+      ticks: 638004577518907269
+    m_Hash: 438561716
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source Project/Unity
   Singleton/Packages
-m_EditorVersion: 2021.3.9f1 (ad3870b89536)
+m_EditorVersion: 2021.3.11f1 (0a5ca18544bf)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -702,13 +702,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.purchasing@4.4.0
+- packageId: com.unity.purchasing@4.4.1
   testable: 0
   isDirectDependency: 1
-  version: 4.4.0
+  version: 4.4.1
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.purchasing@4.4.0
+    Project\Unity Singleton\Library\PackageCache\com.unity.purchasing@4.4.1
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -791,9 +791,10 @@ m_ResolvedPackages:
     - 4.3.0
     - 4.4.0
     - 4.4.1
+    - 4.5.0
     compatible:
-    - 4.4.0
     - 4.4.1
+    - 4.5.0
     verified: 4.4.1
   dependencies:
   - name: com.unity.ugui
@@ -830,7 +831,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.services.analytics
-    version: 4.1.0
+    version: 4.2.0
   keywords:
   - purchasing
   - iap
@@ -844,16 +845,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637946151890000000
+  datePublishedTicks: 637967563500000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: 94c5a447a90fc84222a89d4cffe216b3cfba7ef6
+    revision: 9dba5d5eda45d5841b3bcb9fadeba1b2ed5ef45b
     path: 
   unityLifecycle:
-    version: 4.4.0
+    version: 4.4.1
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -3300,9 +3301,11 @@ m_ResolvedPackages:
     - 1.4.0
     - 1.4.1
     - 1.4.2
+    - 1.4.3
     compatible:
     - 1.4.2
-    verified: 1.4.2
+    - 1.4.3
+    verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3338,13 +3341,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.4.2
     nextVersion: 
-- packageId: com.unity.services.analytics@4.1.0
+- packageId: com.unity.services.analytics@4.2.0
   testable: 0
   isDirectDependency: 0
-  version: 4.1.0
+  version: 4.2.0
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.services.analytics@4.1.0
+    Project\Unity Singleton\Library\PackageCache\com.unity.services.analytics@4.2.0
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -3378,9 +3381,10 @@ m_ResolvedPackages:
     - 4.0.0
     - 4.0.1
     - 4.1.0
+    - 4.2.0
     compatible:
-    - 4.1.0
-    verified: 4.1.0
+    - 4.2.0
+    verified: 4.2.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3411,16 +3415,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637938214040000000
+  datePublishedTicks: 637970128630000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: ce8dc514c456314c27bb9b989b588f1966853df6
+    revision: 40445d94118e139ce5bff46afdeb574502a2e3c9
     path: 
   unityLifecycle:
-    version: 4.1.0
+    version: 4.2.0
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
