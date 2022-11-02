@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638004577518907269
-    m_Hash: 438561716
+      ticks: 638029535090359451
+    m_Hash: 3616500965
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Vishal/Documents/GitHub Projects/Unity-Singleton/Source Project/Unity
   Singleton/Packages
-m_EditorVersion: 2021.3.11f1 (0a5ca18544bf)
+m_EditorVersion: 2021.3.12f1 (8af3c3e441b1)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -437,7 +437,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.4.2
+    version: 1.4.3
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -827,7 +827,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.4.2
+    version: 1.4.3
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.services.analytics
@@ -3262,13 +3262,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.services.core@1.4.2
+- packageId: com.unity.services.core@1.4.3
   testable: 0
   isDirectDependency: 0
-  version: 1.4.2
+  version: 1.4.3
   source: 1
   resolvedPath: C:\Users\Vishal\Documents\GitHub Projects\Unity-Singleton\Source
-    Project\Unity Singleton\Library\PackageCache\com.unity.services.core@1.4.2
+    Project\Unity Singleton\Library\PackageCache\com.unity.services.core@1.4.3
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3303,7 +3303,6 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     compatible:
-    - 1.4.2
     - 1.4.3
     verified: 1.4.3
   dependencies:
@@ -3330,16 +3329,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637919618520000000
+  datePublishedTicks: 637959096350000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 3964d1641ebec474aa425853985bccbdb89c2a49
+    revision: 145c9bbe93bde4784d4641e172be4ca40a3745fc
     path: 
   unityLifecycle:
-    version: 1.4.2
+    version: 1.4.3
     nextVersion: 
 - packageId: com.unity.services.analytics@4.2.0
   testable: 0
@@ -3398,7 +3397,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.4.2
+    version: 1.4.3
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
