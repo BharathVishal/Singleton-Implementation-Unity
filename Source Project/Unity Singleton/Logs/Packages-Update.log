@@ -350,3 +350,14 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.purchasing from version 4.4.0 to 4.4.1
+
+=== Wed Dec  7 10:49:41 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ads from version 3.7.5 to 4.3.0
+  com.unity.analytics from version 3.6.12 to 3.7.1
+  com.unity.test-framework from version 1.1.31 to 1.1.33
+  com.unity.timeline from version 1.6.4 to 1.7.1
