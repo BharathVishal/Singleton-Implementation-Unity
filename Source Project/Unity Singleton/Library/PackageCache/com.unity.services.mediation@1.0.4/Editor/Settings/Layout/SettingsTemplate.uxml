@@ -1,0 +1,78 @@
+﻿<UXML xmlns="UnityEngine.UIElements">
+    <ScrollView class="scroll-container">
+        <VisualElement class="project-settings-service-specific-container">
+            <VisualElement class="project-settings-title-container">
+                <Label text="Adapter Configuration" class="project-settings-title"/>
+            </VisualElement>
+            <VisualElement class="project-settings-title-container description">
+                <Label class="label-container" text="Select and install the ad network adapters you want to use for Mediation."/>
+                <Label class="label-container" text="Unity Ads is installed by default, but to make additional configurations for Unity Ads, visit the Dashboard."/>
+            </VisualElement>
+
+            <VisualElement class="table-box">
+                <VisualElement class="list-header">
+                    <Label name="list-header-ad-network" text="Ad Network"              class="list-header-label-network"/>
+                    <Label name="list-header-status"     text="Status"                  class="list-header-label-status"/>
+                    <Label name="list-header-config"     text="Dashboard configuration" class="list-header-label-status"/>
+                    <Label name="list-header-action"     text="Action"                  class="list-header-label-action"/>
+                </VisualElement>
+                <VisualElement name="AdapterList" class="adapter-list"/>
+            </VisualElement>
+
+        </VisualElement>
+
+        <VisualElement class="separator" />
+
+        <VisualElement class="project-settings-service-specific-container">
+            <VisualElement class="project-settings-title-container">
+                <Label class="project-settings-title" text="Game IDs" />
+            </VisualElement>
+            <VisualElement class="game-id-row">
+                <Label class="label-container" text="Android:"/>
+                <Label class="label-container" name="android-game-id" text=""/>
+            </VisualElement>
+            <VisualElement class="game-id-row">
+                <Label class="label-container" text="iOS:"/>
+                <Label class="label-container" name="ios-game-id" text=""/>
+            </VisualElement>
+
+        </VisualElement>
+
+        <VisualElement class="separator" />
+
+        <VisualElement class="project-settings-service-specific-container">
+            <VisualElement class="project-settings-title-container">
+                <Label class="project-settings-title" text="Code Generator Tool" />
+            </VisualElement>
+            <VisualElement class="project-settings-title-container description bottom-pad">
+                <Label class="label-container" text="Preview your ads by using the code generator tool. Create code snippets and copy them into your game code."/>
+            </VisualElement>
+            <Button name="GoToCodeGenerator" text="Open Code Generator" class="code-gen-button"/>
+        </VisualElement>
+
+        <VisualElement class="project-settings-title-container description">
+            <Label class="label-container" text="Select and install the ad network adapters you want to use for Mediation."/>
+            <Label class="label-container" text="Unity Ads is installed by default, but to make additional configurations for Unity Ads, visit the Dashboard."/>
+        </VisualElement>
+
+        <VisualElement class="separator" />
+
+        <VisualElement class="project-settings-service-specific-container ad-units-section" >
+            <VisualElement class="project-settings-title-container description">
+                <Label class="label-container" text="To see a read-only list of Ad Units click on the following button"/>
+            </VisualElement>
+            <Button name="GoToAdUnits" text="Ad Units" class="ad-units-button"/>
+        </VisualElement>
+
+        <VisualElement class="separator" />
+
+        <VisualElement class="project-settings-service-specific-container">
+            <VisualElement class="project-settings-title-container">
+                <Label class="project-settings-title" text="Build Settings" />
+            </VisualElement>
+            <VisualElement class="project-settings-title-container description">
+                <Toggle class="settings-toggle" name="ForceDynamicLinking" text=" Force Dynamic Linking for Cocoapods"/>
+            </VisualElement>
+        </VisualElement>
+    </ScrollView>
+</UXML>

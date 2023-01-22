@@ -1,0 +1,70 @@
+.list-item
+{
+    flex-direction: row;
+}
+
+.light-even-background
+{
+    background-color: #C8C8C8;
+}
+
+.light-odd-background
+{
+    background-color: #CACACA;
+}
+
+.dark-even-background
+{
+    background-color: #383838;
+}
+
+.dark-odd-background
+{
+    background-color: #3F3F3F;
+}
+
+.list-item-label-adunit
+{
+    width: 35%;
+    flex-direction: row;
+    margin-left: 10px;
+    -unity-text-align: middle-left;
+    overflow: hidden;
+}
+
+.list-item-label
+{
+    width: 15%;
+    flex-direction: row;
+    -unity-text-align: middle-left;
+    overflow: hidden;
+}
+
+.list-item-label-id
+{
+    width: 15%;
+    flex-direction: row;
+    flex-grow: 1;
+    overflow: hidden;
+    -unity-text-align: middle-left;
+}
+
+.list-item-button
+{
+    opacity: 0;
+    width: 1px;
+    height: 50%;
+    align-self: center;
+    border-color: initial;
+    background-image: url("../Images/copy.png");
+}
+
+.list-item:hover > .list-item-button
+{
+    opacity: initial;
+    width: 1px;
+    height: 50%;
+    align-self: center;
+    border-color: initial;
+    background-image: url("../Images/copy.png");
+}

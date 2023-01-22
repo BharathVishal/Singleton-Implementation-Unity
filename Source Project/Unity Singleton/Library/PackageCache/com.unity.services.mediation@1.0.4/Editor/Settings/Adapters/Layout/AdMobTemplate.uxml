@@ -1,0 +1,14 @@
+﻿<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="ad-mob-section-spacer"/>
+    <VisualElement class="adapter-row-data">
+        <Label text="*Android App ID" />
+        <TextField name="AndroidAdmobID" class="adapter-center-data ad-mob-id"/>
+    </VisualElement>
+    <VisualElement class="adapter-row-data">
+        <Label text="*iOS App ID" />
+        <TextField name="IosAdmobID" class="adapter-center-data ad-mob-id"/>
+    </VisualElement>
+    <VisualElement class="adapter-row-data">
+        <TextElement class="adapter-center-data ad-mob-id subtext" text=" e.g. ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+    </VisualElement>
+</UXML>

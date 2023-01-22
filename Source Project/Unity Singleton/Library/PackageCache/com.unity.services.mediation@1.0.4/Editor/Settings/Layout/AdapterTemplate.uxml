@@ -1,0 +1,53 @@
+﻿<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="Adapter" class="adapter-container">
+        <VisualElement name="AdapterHeader" class="adapter-header">
+            <VisualElement class="centered-row">
+                <TextElement class="adapter-title" name="AdapterName" text="Unity Ads Adapter"/>
+            </VisualElement>
+
+            <VisualElement name="InstalledInfo" class="install-info-section">
+                <VisualElement class="centered-row" >
+                    <Image class="installed-icon"/>
+                    <TextElement text="Installed"/>
+                </VisualElement>
+            </VisualElement>
+
+            <VisualElement name="UninstalledInfo" class="install-info-section">
+                <VisualElement class="centered-row" >
+                    <Image name="InstalledNetworkWarning" class="warning-icon" tooltip="This ad network is configured in the dashboard; Installing it is recommended."/>
+                    <TextElement text="Not installed"/>
+                </VisualElement>
+            </VisualElement>
+
+            <VisualElement name="UnavailableConfigInfo" class="config-info-section">
+                <VisualElement class="centered-row" >
+                    <TextElement text="Unavailable"/>
+                </VisualElement>
+            </VisualElement>
+
+            <VisualElement name="ConfiguredInfo" class="config-info-section">
+                <VisualElement class="centered-row" >
+                    <Image class="installed-icon"/>
+                    <TextElement text="Configured"/>
+                </VisualElement>
+            </VisualElement>
+
+            <VisualElement name="UnconfiguredInfo" class="config-info-section">
+                <VisualElement class="centered-row" >
+                    <Image name="ConfiguredNetworkWarning" class="warning-icon" tooltip="This ad network is configured in the dashboard; Installing it is recommended."/>
+                    <TextElement text="Not configured"/>
+                    <VisualElement name="SourceConfigLinkContainer" class="centered-row">
+                        <TextElement text=" Ad source" class="link-button"/>
+                        <VisualElement class="external-link-icon" style="-unity-background-image-tint-color:#5481F7" />
+                    </VisualElement>
+                </VisualElement>
+            </VisualElement>
+
+            <VisualElement class="centered-row">
+                <VisualElement class="flex-end-column">
+                    <Button name="InstallButton" text="Install"/>
+                </VisualElement>
+            </VisualElement>
+        </VisualElement>
+    </VisualElement>
+</UXML>

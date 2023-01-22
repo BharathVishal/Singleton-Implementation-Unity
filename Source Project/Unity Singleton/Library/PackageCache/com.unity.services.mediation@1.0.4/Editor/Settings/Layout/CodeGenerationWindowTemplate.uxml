@@ -1,0 +1,33 @@
+﻿<UXML xmlns="UnityEngine.UIElements">
+    <ScrollView class="scroll-container window-border">
+        <VisualElement class="project-settings-service-specific-container">
+            <VisualElement>
+                <Label text="Code Generator" class="code-title"/>
+            </VisualElement>
+            <VisualElement >
+                <Label class="label-container" text="Select your Game ID and Ad Unit type to generate a code snippet to paste into your game code and preview your ads. You can change your Ad Unit ID later directly in the code."/>
+            </VisualElement>
+
+            <VisualElement class="code-info-row">
+                <Label text="Game ID"/>
+                <VisualElement name="gameIdDropdown" class="option-dropdown"/>
+            </VisualElement>
+            <VisualElement class="code-info-row">
+                <Label text="Ad Unit type"/>
+                <VisualElement name="adUnitDropdown" class="option-dropdown"/>
+            </VisualElement>
+
+            <VisualElement class="code-field-layout">
+                <Label name="codeGenLineNumbers" class="code-get-field-line-numbers" multiline="true"/>
+                <TextField name="codeGenField" class="code-field" multiline="true">
+                    <Button name="copyToClipboard" text="Copy snippet" class="copy-button"/>
+                </TextField>
+            </VisualElement>
+
+            <VisualElement class="code-info-row">
+                <Label text="To see a read-only list of available Ad Units click on the following button"/>
+                <Button name="goToAdUnits" text="Ad Units" class="ad-units-button"/>
+            </VisualElement>
+        </VisualElement>
+    </ScrollView>
+</UXML>

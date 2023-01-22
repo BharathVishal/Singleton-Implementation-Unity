@@ -1,0 +1,15 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <VisualElement class="search-field-layout">
+        <uie:ToolbarSearchField class="search-field"/>
+    </VisualElement>
+    <VisualElement class="table-box">
+        <VisualElement class="list-header">
+            <Label name="list-header-adunit" text="Ad Unit" class="list-header-label-adunit"/>
+            <Label name="list-header-platform" text="Platform" class="list-header-label"/>
+            <Label name="list-header-adformat" text="Ad Format" class="list-header-label"/>
+            <Label name="list-header-id" text="ID" class="list-header-label-id"/>
+        </VisualElement>
+        <Label name="loading" text="Loading Ad Units..." class="loading-label"/>
+        <ListView class="list-view" item-height="27.55px"/>
+    </VisualElement>
+</UXML>

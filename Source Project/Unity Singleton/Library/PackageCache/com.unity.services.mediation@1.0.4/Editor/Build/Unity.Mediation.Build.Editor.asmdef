@@ -1,0 +1,31 @@
+{
+    "name": "Unity.Mediation.Build.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Mediation",
+        "Unity.Mediation.Adapters.Editor",
+        "Unity.Settings.Editor",
+        "Unity.Mediation.Settings.Editor",
+        "PlayServicesResolver.Utils.Editor",
+        "Unity.Services.Core.Configuration.Editor",
+        "Unity.Services.Core.Configuration",
+        "Unity.Services.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ads.ios-support",
+            "expression": "",
+            "define": "HAVE_IOS_SUPPORT_PACKAGE"
+        }
+    ],
+    "noEngineReferences": false
+}

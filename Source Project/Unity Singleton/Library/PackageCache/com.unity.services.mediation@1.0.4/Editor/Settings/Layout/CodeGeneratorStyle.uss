@@ -1,0 +1,54 @@
+﻿.code-title {
+    font-size: 20px;
+    -unity-font-style: bold;
+    border-bottom-width:7px;
+    border-top-width: 20px;
+}
+
+.code-info-row {
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    border-right-width:8px;
+    justify-content: space-between;
+    height:30px;
+}
+.option-dropdown {
+    width:50%;
+    padding-top:2px;
+}
+
+.code-field-layout {
+    flex-direction: row;
+}
+
+.code-get-field-line-numbers {
+    min-width: 22px;
+    font-size: 13px;
+    padding: 2px;
+    color: #646464;
+    -unity-text-align: upper-right;
+}
+
+.code-field {
+    min-height:400px;
+    align-content: stretch;
+    align-items: flex-start;
+    flex-grow: 1;
+    font-size: 13px;
+}
+
+.code-field  > * {
+    min-height: 100px;
+}
+
+.copy-button {
+    min-height:10px;
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+
+.window-border {
+    padding: 20px;
+}

@@ -1,0 +1,47 @@
+﻿
+.scroll-container
+{
+    flex-grow:1;
+}
+
+.separator
+{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:2px;
+}
+
+.project-settings-service-specific-container
+{
+    flex-grow:1;
+}
+
+.project-settings-title-container,
+.project-settings-section-container {
+    padding:4px 4px 4px 8px;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.project-settings-title-container.description{
+    flex-direction:column;
+}
+
+.field-block {
+    padding:0 0 0 10px;
+    flex-grow:1;
+    flex-direction:column;
+}
+
+.project-settings-title{
+    font-size:16px;
+    -unity-font-style:bold;
+}
+
+.label-container {
+    flex-direction:row;
+    align-items:flex-start;
+    white-space:normal;
+    padding-top:5px;
+    padding-bottom:5px;
+}

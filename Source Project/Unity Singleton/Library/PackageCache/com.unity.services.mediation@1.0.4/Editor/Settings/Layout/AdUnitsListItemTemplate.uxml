@@ -1,0 +1,7 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Label text="Ad Unit" name="ad-unit" class="list-item-label-adunit"/>
+    <Label text="Platform" name="platform" class="list-item-label"/>
+    <Label text="Ad Format" name="ad-format" class="list-item-label"/>
+    <Label text="ID" name="id" class="list-item-label-id"/>
+    <Button name="clipboard" class="list-item-button"/>
+</UXML>

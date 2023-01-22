@@ -1,0 +1,47 @@
+{
+  "name": "com.unity.services.mediation",
+  "displayName": "Advertisement with Mediation",
+  "version": "1.0.4",
+  "unity": "2019.4",
+  "description": "The Advertisement with Mediation package lets you easily implement mediation strategies with various supported third-party ad networks to monetize your game, whether you develop in Unity, Xcode, or Android Studio.\n\nGet started with Mediation in a few simple steps by installing the Unity Advertisement with Mediation package, configuring your ad networks, and implementing your game code with mediation. In the Unity Dashboard, refer to ad units to surface ads in your game, set up your mediation strategies, and use reporting and analytics to track performance.\n\nSupported platforms:\n▪ Android\n▪ iOS",
+  "_upm": {
+    "gameService": {
+      "groupIndex": 4,
+      "groupName": "Monetize",
+      "genericDashboardUrl": "https://dashboard.unity3d.com/monetization",
+      "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/monetization/mediation/waterfall-management",
+      "projectDashboardUrlType": "OrganizationKey",
+      "useCasesUrl": "https://dashboard.unity3d.com/monetization/use-cases.md",
+      "configurePath": "Project/Services/Mediation"
+    },
+    "supportedPlatforms": [
+      "Android",
+      "iOS"
+    ],
+    "changelog": "### Fixed\n- Removed more verbose logging in batchmode of certain libraries interfering with tests"
+  },
+  "dependencies": {
+    "com.unity.settings-manager": "1.0.3",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.services.core": "1.4.0",
+    "com.unity.ugui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Example Usage",
+      "description": "A Sample Integration with a Demo Scene and C# Implementation",
+      "path": "Samples~/ExampleUsage"
+    }
+  ],
+  "relatedPackages": {
+    "com.unity.services.mediation.tests": "1.0.4"
+  },
+  "upmCi": {
+    "footprint": "456bec0c9f04665181d68c2411872faaf728d1f9"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+    "type": "git",
+    "revision": "fb29d08e9512102969b5a6b10431c658f553077f"
+  }
+}

@@ -1,0 +1,6 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <VisualElement class="help-box">
+        <Image class="help-box-image help-box-warning"/>
+        <Label text="This dashboard project has no configured ad units."/>
+    </VisualElement>
+</UXML>

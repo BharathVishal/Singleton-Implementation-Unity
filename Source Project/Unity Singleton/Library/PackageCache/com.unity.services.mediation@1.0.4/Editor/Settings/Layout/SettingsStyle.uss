@@ -1,0 +1,299 @@
+﻿
+.ToggleRow {
+    flex-direction: row;
+    align-content: center;
+    align-items:center;
+    border-left-width:16px;
+    border-right-width:16px;
+    height:60px;
+    background-color: #181818;
+}
+
+.ToggleService{
+    position:absolute;
+    right:0px;
+}
+
+.PackageInfosSection {
+    flex-direction: column;
+    border-top-width:15px;
+    border-left-width:16px;
+    border-right-width:16px;
+}
+
+.PackageTitle {
+    font-size: 20px;
+    -unity-font-style: bold;
+    border-bottom-width:7px;
+    color: #d2d2d2;
+}
+
+.adapter-list {
+    flex-direction: column;
+    display:flex;
+    padding:0;
+    margin:0;
+}
+
+.adapter-container {
+    flex-direction: column;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 16px;
+    border-right-width: 16px;
+}
+
+.light-even-background
+{
+    background-color: #C8C8C8;
+}
+
+.light-odd-background
+{
+    background-color: #CACACA;
+}
+
+.dark-even-background
+{
+    background-color: #383838;
+}
+
+.dark-odd-background
+{
+    background-color: #3F3F3F;
+}
+
+.adapter-title {
+    font-size: 11px;
+    -unity-font-style: bold;
+}
+
+.adapter-header {
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.adapter-versions-dropdown {
+    min-width: 90px;
+    min-height: 20px;
+}
+
+.adapter-options-button {
+    width:5px;
+    height:10px;
+    margin-left:5px;
+    background-image: url('../Images/menu.png');
+}
+
+.adapter-row-data {
+    margin-left: 30px;
+    height:25px;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    align-self: flex-start;
+}
+
+.adapter-center-data {
+    position:absolute;
+    left:215px;
+}
+
+.info-icon-custom {
+    width:22px;
+    height:22px;
+    margin-left:5px;
+    background-image: url('../Images/info.png');
+}
+
+.info-icon {
+    width: 22px;
+    height: 22px;
+    margin-left:5px;
+    margin-top:-5px;
+    margin-bottom:-5px;
+    background-image: resource('Icons/d_UnityEditor.InspectorWindow@2x.png');
+}
+
+.info-icon-low-res {
+    width:21px;
+    height:20px;
+    margin-left:5px;
+    background-image: resource('Icons/d_UnityEditor.InspectorWindow.png');
+}
+
+.installed-icon {
+    width:10px;
+    height:10px;
+    margin-left:5px;
+    margin-right:9px;
+    background-image: url('../Images/check.png');
+}
+
+.warning-icon {
+    width:18px;
+    height:18px;
+    margin-left:0px;
+    margin-right:5px;
+    background-image: resource("d_console.warnicon");
+}
+
+.install-info-section {
+    flex-direction:column;
+    align-items:flex-start;
+    position:absolute;
+    left:29%;
+}
+
+.config-info-section {
+    flex-direction:column;
+    align-items:flex-start;
+    position:absolute;
+    left:55%;
+}
+
+.centered-row {
+    flex-direction:row;
+    align-items:center;
+    -unity-text-align: middle-center;
+}
+
+.centered-column {
+    flex-direction:column;
+    align-items:center;
+}
+
+.flex-end-column {
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.author-section {
+    flex-direction:row;
+    border-top-width:10px;
+}
+
+.title-text {
+    -unity-font-style: bold;
+}
+
+.version-section {
+    flex-direction:row;
+    border-top-width:10px;
+}
+
+.link-section {
+    flex-direction:row;
+    border-top-width:20px;
+}
+
+.link-row {
+    height:25px;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    align-self: flex-start;
+}
+
+.link {
+    color: #5481F7;
+}
+
+.update-button{
+    height:24px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+.bottom-pad {
+    border-bottom-width:20px;
+}
+
+.code-gen-button {
+    height:24px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+.ad-units-section {
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.ad-units-button {
+    height:24px;
+}
+
+.unity-ads-warning {
+    padding-top:5px;
+}
+
+.ad-mob-section-spacer {
+    height:10px
+}
+
+.ad-mob-id {
+    width:300px;
+}
+
+.subtext {
+    font-size:10px;
+}
+
+.game-id-row {
+    width:150px;
+    left:10px;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.table-box
+{
+    flex-direction: column;
+    border-color: black;
+    border-width: 1px;
+    margin: 3px 10px 10px;
+    overflow: hidden;
+}
+
+.list-header
+{
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    height: 30px;
+    -unity-text-align: middle-left;
+    border-width: 1px;
+    border-color: black;
+    overflow: hidden;
+}
+
+.list-header-label-network
+{
+    margin-left: 15px;
+    flex-direction: row;
+    -unity-font-style: bold;
+    overflow: hidden;
+}
+
+.list-header-label-status
+{
+    margin-left: 15px;
+    flex-direction: row;
+    -unity-font-style: bold;
+    overflow: hidden;
+}
+
+.list-header-label-action
+{
+    margin-right:25px;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    -unity-font-style: bold;
+    overflow: hidden;
+}
+

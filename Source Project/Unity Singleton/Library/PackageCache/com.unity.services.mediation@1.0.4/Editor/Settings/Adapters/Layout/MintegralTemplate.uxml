@@ -1,0 +1,8 @@
+﻿<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="EarlyAccessMintegralContainer" class="link-row">
+        <TextElement text="Early Access" class="link-button"/>
+        <VisualElement class="external-link-icon" style="-unity-background-image-tint-color:#5481F7" />
+    </VisualElement>
+</UXML>
+
+

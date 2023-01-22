@@ -1,0 +1,134 @@
+{
+  "SdkInfo": {
+    "Identifier": "mediation-sdk",
+    "DisplayName": "Mediation SDK",
+    "AndroidArtifact": "com.unity3d.mediation:mediation-sdk",
+    "IosPod": "UnityMediationSdk",
+    "PackageVersion": "1.0.4",
+    "SdkVersion": "1.0"
+  },
+  "Adapters": [
+    {
+      "Identifier": "unityads-adapter",
+      "DashboardId": "UNITY",
+      "DisplayName": "Unity Ads Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:unityads-adapter",
+      "IosPod": "UnityMediationUnityAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+      ]
+    },
+    {
+      "Identifier": "admob-adapter",
+      "DashboardId": "ADMOB",
+      "DisplayName": "AdMob Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:admob-adapter",
+      "IosPod": "UnityMediationAdmobAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+      ]
+    },
+    {
+      "Identifier": "facebook-adapter",
+      "DashboardId": "FACEBOOK",
+      "DisplayName": "Meta Audience Network Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:facebook-adapter",
+      "IosPod": "UnityMediationFacebookAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+      ]
+    },
+    {
+      "Identifier": "adcolony-adapter",
+      "DashboardId": "ADCOLONY",
+      "DisplayName": "AdColony Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:adcolony-adapter",
+      "IosPod": "UnityMediationAdColonyAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+      ]
+    },
+    {
+      "Identifier": "ironsource-adapter",
+      "DashboardId": "IRONSOURCE",
+      "DisplayName": "ironSource Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:ironsource-adapter",
+      "IosPod": "UnityMediationIronSourceAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+        "https://android-sdk.is.com"
+      ]
+    },
+    {
+      "Identifier": "applovin-adapter",
+      "DashboardId": "APPLOVIN",
+      "DisplayName": "Applovin Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:applovin-adapter",
+      "IosPod": "UnityMediationAppLovinAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+      ]
+    },
+    {
+      "Identifier": "vungle-adapter",
+      "DashboardId": "VUNGLE",
+      "DisplayName": "Vungle Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:vungle-adapter",
+      "IosPod": "UnityMediationVungleAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+      ]
+    },
+    {
+      "Identifier": "mintegral-adapter",
+      "DashboardId": "MINTEGRAL",
+      "DisplayName": "Mintegral Adapter",
+      "AndroidArtifact": "com.unity3d.mediation:mintegral-adapter",
+      "IosPod": "UnityMediationMintegralAdapter",
+      "Versions": [
+        {
+          "Identifier": "latest",
+          "DisplayName": "Latest Supported"
+        }
+      ],
+      "Repositories": [
+        "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <VisualElement class="help-box">
+        <Image class="help-box-image help-box-error"/>
+        <Label text="The project hasn't been linked to the dashboard, please validate your information in the services window."/>
+    </VisualElement>
+</UXML>

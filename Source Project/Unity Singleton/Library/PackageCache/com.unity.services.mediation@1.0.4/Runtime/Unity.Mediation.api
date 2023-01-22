@@ -1,0 +1,332 @@
+// This file is generated. Do not modify by hand.
+// XML documentation file not found. To check if public methods have XML comments,
+// make sure the XML doc file is present and located next to the scraped dll
+namespace Unity.Services.Mediation
+{
+    public enum AdState
+    {
+        public const Unity.Services.Mediation.AdState Loaded = 2;
+        public const Unity.Services.Mediation.AdState Loading = 1;
+        public const Unity.Services.Mediation.AdState Showing = 3;
+        public const Unity.Services.Mediation.AdState Unloaded = 0;
+        public int value__;
+    }
+
+    public sealed class BannerAd : System.IDisposable, Unity.Services.Mediation.IBannerAd
+    {
+        public event System.EventHandler OnClicked;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnFailedLoad;
+        public event System.EventHandler OnLoaded;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnRefreshed;
+        public virtual Unity.Services.Mediation.AdState AdState { get; }
+        public virtual string AdUnitId { get; }
+        public virtual Unity.Services.Mediation.BannerAdSize Size { get; }
+        public BannerAd(string adUnitId, Unity.Services.Mediation.BannerAdSize size, Unity.Services.Mediation.BannerAdAnchor anchor = 0, UnityEngine.Vector2 positionOffset = default(UnityEngine.Vector2)) {}
+        public virtual void Dispose();
+        public virtual System.Threading.Tasks.Task LoadAsync();
+        public virtual void SetPosition(Unity.Services.Mediation.BannerAdAnchor anchor, UnityEngine.Vector2 positionOffset = default(UnityEngine.Vector2));
+    }
+
+    public enum BannerAdAnchor
+    {
+        public const Unity.Services.Mediation.BannerAdAnchor BottomCenter = 6;
+        public const Unity.Services.Mediation.BannerAdAnchor BottomLeft = 7;
+        public const Unity.Services.Mediation.BannerAdAnchor BottomRight = 8;
+        public const Unity.Services.Mediation.BannerAdAnchor Center = 3;
+        public const Unity.Services.Mediation.BannerAdAnchor Default = 0;
+        public const Unity.Services.Mediation.BannerAdAnchor MiddleLeft = 4;
+        public const Unity.Services.Mediation.BannerAdAnchor MiddleRight = 5;
+        public const Unity.Services.Mediation.BannerAdAnchor None = 9;
+        public const Unity.Services.Mediation.BannerAdAnchor TopCenter = 0;
+        public const Unity.Services.Mediation.BannerAdAnchor TopLeft = 1;
+        public const Unity.Services.Mediation.BannerAdAnchor TopRight = 2;
+        public int value__;
+    }
+
+    public enum BannerAdPredefinedSize
+    {
+        public const Unity.Services.Mediation.BannerAdPredefinedSize Banner = 0;
+        public const Unity.Services.Mediation.BannerAdPredefinedSize LargeBanner = 1;
+        public const Unity.Services.Mediation.BannerAdPredefinedSize Leaderboard = 3;
+        public const Unity.Services.Mediation.BannerAdPredefinedSize MediumRectangle = 2;
+        public int value__;
+    }
+
+    [System.Runtime.CompilerServices.Extension] public static class BannerAdPredefinedSizeExtension
+    {
+        [System.Runtime.CompilerServices.Extension] public static Unity.Services.Mediation.BannerAdSize ToBannerAdSize(Unity.Services.Mediation.BannerAdPredefinedSize bannerAdPredefinedSize);
+    }
+
+    public class BannerAdSize
+    {
+        public int DpHeight { get; }
+        public int DpWidth { get; }
+        public int Height { get; }
+        public int Width { get; }
+        public BannerAdSize(Unity.Services.Mediation.BannerAdPredefinedSize size) {}
+        public BannerAdSize(UnityEngine.Vector2 size) {}
+        public BannerAdSize(int width, int height) {}
+        public virtual bool Equals(object obj);
+        protected bool Equals(Unity.Services.Mediation.BannerAdSize other);
+        public static Unity.Services.Mediation.BannerAdSize FromDpUnits(int dpWidth, int dpHeight);
+        public virtual int GetHashCode();
+        public static Unity.Services.Mediation.BannerAdSize op_Implicit(UnityEngine.Vector2 size);
+        public static UnityEngine.Vector2 op_Implicit(Unity.Services.Mediation.BannerAdSize size);
+    }
+
+    public enum ConsentStatus
+    {
+        public const Unity.Services.Mediation.ConsentStatus Denied = 2;
+        public const Unity.Services.Mediation.ConsentStatus Given = 1;
+        public const Unity.Services.Mediation.ConsentStatus NotDetermined = 0;
+        public int value__;
+    }
+
+    public enum DataPrivacyLaw
+    {
+        public const Unity.Services.Mediation.DataPrivacyLaw CCPA = 1;
+        public const Unity.Services.Mediation.DataPrivacyLaw GDPR = 0;
+        public const Unity.Services.Mediation.DataPrivacyLaw PIPLAdPersonalization = 2;
+        public const Unity.Services.Mediation.DataPrivacyLaw PIPLDataTransport = 3;
+        public int value__;
+    }
+
+    public interface IBannerAd : System.IDisposable
+    {
+        public event System.EventHandler OnClicked;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnFailedLoad;
+        public event System.EventHandler OnLoaded;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnRefreshed;
+        public abstract Unity.Services.Mediation.AdState AdState { get; }
+        public abstract string AdUnitId { get; }
+        public abstract Unity.Services.Mediation.BannerAdSize Size { get; }
+        public abstract System.Threading.Tasks.Task LoadAsync();
+        public abstract void SetPosition(Unity.Services.Mediation.BannerAdAnchor anchor, UnityEngine.Vector2 positionOffset = default(UnityEngine.Vector2));
+    }
+
+    public interface IDataPrivacy
+    {
+        public abstract Unity.Services.Mediation.ConsentStatus GetConsentStatusForLaw(Unity.Services.Mediation.DataPrivacyLaw dataPrivacyLaw);
+        public abstract void UserGaveConsent(Unity.Services.Mediation.ConsentStatus consent, Unity.Services.Mediation.DataPrivacyLaw dataPrivacyLaw);
+    }
+
+    public interface IImpressionEventPublisher
+    {
+        public event System.EventHandler<Unity.Services.Mediation.ImpressionEventArgs> OnImpression;
+    }
+
+    public interface IInterstitialAd : System.IDisposable
+    {
+        public event System.EventHandler OnClicked;
+        public event System.EventHandler OnClosed;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnFailedLoad;
+        public event System.EventHandler<Unity.Services.Mediation.ShowErrorEventArgs> OnFailedShow;
+        public event System.EventHandler OnLoaded;
+        public event System.EventHandler OnShowed;
+        public abstract Unity.Services.Mediation.AdState AdState { get; }
+        public abstract string AdUnitId { get; }
+        public abstract System.Threading.Tasks.Task LoadAsync();
+        public abstract System.Threading.Tasks.Task ShowAsync(Unity.Services.Mediation.InterstitialAdShowOptions showOptions = default(Unity.Services.Mediation.InterstitialAdShowOptions));
+    }
+
+    public interface IMediationService
+    {
+        public abstract Unity.Services.Mediation.IDataPrivacy DataPrivacy { get; }
+        public abstract Unity.Services.Mediation.IImpressionEventPublisher ImpressionEventPublisher { get; }
+        public abstract string SdkVersion { get; }
+        public abstract Unity.Services.Mediation.IBannerAd CreateBannerAd(string adUnitId, Unity.Services.Mediation.BannerAdSize size, Unity.Services.Mediation.BannerAdAnchor anchor = 0, UnityEngine.Vector2 positionOffset = default(UnityEngine.Vector2));
+        public abstract Unity.Services.Mediation.IInterstitialAd CreateInterstitialAd(string adUnitId);
+        public abstract Unity.Services.Mediation.IRewardedAd CreateRewardedAd(string adUnitId);
+    }
+
+    public class ImpressionData
+    {
+        public string AdSourceInstance;
+        public string AdSourceName;
+        public string AdUnitFormat;
+        public string AdUnitId;
+        public string AdUnitName;
+        public string AppVersion;
+        public string Country;
+        public string Currency;
+        public string ImpressionId;
+        public string LineItemId;
+        public string LineItemName;
+        public string LineItemPriority;
+        public double PublisherRevenuePerImpression;
+        public long PublisherRevenuePerImpressionInMicros;
+        public string RevenueAccuracy;
+        public string Timestamp;
+        public ImpressionData() {}
+    }
+
+    public class ImpressionEventArgs : System.EventArgs
+    {
+        public string AdUnitId { get; }
+        public Unity.Services.Mediation.ImpressionData ImpressionData { get; }
+        public ImpressionEventArgs(string adUnitId, Unity.Services.Mediation.ImpressionData impressionData) {}
+    }
+
+    [System.Runtime.CompilerServices.Extension] public static class InitializationOptionsExtensions
+    {
+        [System.Runtime.CompilerServices.Extension] public static Unity.Services.Core.InitializationOptions SetGameId(Unity.Services.Core.InitializationOptions self, string gameId);
+    }
+
+    public enum InitializationState
+    {
+        public const Unity.Services.Mediation.InitializationState Initialized = 2;
+        public const Unity.Services.Mediation.InitializationState Initializing = 1;
+        public const Unity.Services.Mediation.InitializationState Uninitialized = 0;
+        public int value__;
+    }
+
+    public class InitializeFailedException : System.Exception
+    {
+        public Unity.Services.Mediation.SdkInitializationError initializationError;
+    }
+
+    public sealed class InterstitialAd : System.IDisposable, Unity.Services.Mediation.IInterstitialAd
+    {
+        public event System.EventHandler OnClicked;
+        public event System.EventHandler OnClosed;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnFailedLoad;
+        public event System.EventHandler<Unity.Services.Mediation.ShowErrorEventArgs> OnFailedShow;
+        public event System.EventHandler OnLoaded;
+        public event System.EventHandler OnShowed;
+        public virtual Unity.Services.Mediation.AdState AdState { get; }
+        public virtual string AdUnitId { get; }
+        public InterstitialAd(string adUnitId) {}
+        public virtual void Dispose();
+        public virtual System.Threading.Tasks.Task LoadAsync();
+        public virtual System.Threading.Tasks.Task ShowAsync(Unity.Services.Mediation.InterstitialAdShowOptions showOptions = default(Unity.Services.Mediation.InterstitialAdShowOptions));
+    }
+
+    public class InterstitialAdShowOptions
+    {
+        public bool AutoReload { get; set; }
+        public InterstitialAdShowOptions() {}
+    }
+
+    public interface IRewardedAd : System.IDisposable
+    {
+        public event System.EventHandler OnClicked;
+        public event System.EventHandler OnClosed;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnFailedLoad;
+        public event System.EventHandler<Unity.Services.Mediation.ShowErrorEventArgs> OnFailedShow;
+        public event System.EventHandler OnLoaded;
+        public event System.EventHandler OnShowed;
+        public event System.EventHandler<Unity.Services.Mediation.RewardEventArgs> OnUserRewarded;
+        public abstract Unity.Services.Mediation.AdState AdState { get; }
+        public abstract string AdUnitId { get; }
+        public abstract System.Threading.Tasks.Task LoadAsync();
+        public abstract System.Threading.Tasks.Task ShowAsync(Unity.Services.Mediation.RewardedAdShowOptions showOptions = default(Unity.Services.Mediation.RewardedAdShowOptions));
+    }
+
+    public enum LoadError
+    {
+        public const Unity.Services.Mediation.LoadError AdUnitLoading = 4;
+        public const Unity.Services.Mediation.LoadError AdUnitShowing = 5;
+        public const Unity.Services.Mediation.LoadError MissingMandatoryMemberValues = 6;
+        public const Unity.Services.Mediation.LoadError NetworkError = 2;
+        public const Unity.Services.Mediation.LoadError NoFill = 1;
+        public const Unity.Services.Mediation.LoadError SdkNotInitialized = 3;
+        public const Unity.Services.Mediation.LoadError TooManyLoadRequests = 7;
+        public const Unity.Services.Mediation.LoadError Unknown = 0;
+        public int value__;
+    }
+
+    public class LoadErrorEventArgs : System.EventArgs
+    {
+        public Unity.Services.Mediation.LoadError Error { get; }
+        public string Message { get; }
+        public LoadErrorEventArgs(Unity.Services.Mediation.LoadError error, string message) {}
+    }
+
+    public class LoadFailedException : System.Exception
+    {
+        public Unity.Services.Mediation.LoadError LoadError;
+    }
+
+    public static class MediationService
+    {
+        public static Unity.Services.Mediation.InitializationState InitializationState { get; }
+        public static Unity.Services.Mediation.IMediationService Instance { get; }
+    }
+
+    public sealed class RewardedAd : System.IDisposable, Unity.Services.Mediation.IRewardedAd
+    {
+        public event System.EventHandler OnClicked;
+        public event System.EventHandler OnClosed;
+        public event System.EventHandler<Unity.Services.Mediation.LoadErrorEventArgs> OnFailedLoad;
+        public event System.EventHandler<Unity.Services.Mediation.ShowErrorEventArgs> OnFailedShow;
+        public event System.EventHandler OnLoaded;
+        public event System.EventHandler OnShowed;
+        public event System.EventHandler<Unity.Services.Mediation.RewardEventArgs> OnUserRewarded;
+        public virtual Unity.Services.Mediation.AdState AdState { get; }
+        public virtual string AdUnitId { get; }
+        public RewardedAd(string adUnitId) {}
+        public virtual void Dispose();
+        public virtual System.Threading.Tasks.Task LoadAsync();
+        public virtual System.Threading.Tasks.Task ShowAsync(Unity.Services.Mediation.RewardedAdShowOptions showOptions = default(Unity.Services.Mediation.RewardedAdShowOptions));
+    }
+
+    public class RewardedAdShowOptions
+    {
+        public bool AutoReload { get; set; }
+        public Unity.Services.Mediation.S2SRedeemData S2SData { get; set; }
+        public RewardedAdShowOptions() {}
+    }
+
+    public class RewardEventArgs : System.EventArgs
+    {
+        public string Amount { get; }
+        public string Type { get; }
+        public RewardEventArgs(string type, string amount) {}
+    }
+
+    public struct S2SRedeemData
+    {
+        public string CustomData;
+        public string UserId;
+    }
+
+    public enum SdkInitializationError
+    {
+        public const Unity.Services.Mediation.SdkInitializationError NetworkError = 1;
+        public const Unity.Services.Mediation.SdkInitializationError Unknown = 0;
+        public int value__;
+    }
+
+    public enum ShowError
+    {
+        public const Unity.Services.Mediation.ShowError AdNetworkError = 2;
+        public const Unity.Services.Mediation.ShowError AdNotLoaded = 1;
+        public const Unity.Services.Mediation.ShowError InvalidActivity = 3;
+        public const Unity.Services.Mediation.ShowError Unknown = 0;
+        public int value__;
+    }
+
+    public class ShowErrorEventArgs : System.EventArgs
+    {
+        public Unity.Services.Mediation.ShowError Error { get; }
+        public string Message { get; }
+        public ShowErrorEventArgs(Unity.Services.Mediation.ShowError error, string message) {}
+    }
+
+    public class ShowFailedException : System.Exception
+    {
+        public Unity.Services.Mediation.ShowError ShowError;
+    }
+}
+
+namespace Unity.Services.Mediation.UI
+{
+    [UnityEngine.RequireComponent(typeof(UnityEngine.RectTransform))] public class UIBannerAd : UnityEngine.EventSystems.UIBehaviour
+    {
+        [UnityEngine.Tooltip(@"Follow the UI component's movement to the best of the Banner Ad's ability. Turn this off if you want your banner to be stationary, or for better performances.")] public bool followComponentMovement;
+        public string AdUnitId { get; }
+        public UIBannerAd() {}
+        protected virtual void Awake();
+        protected virtual void OnDisable();
+    }
+}

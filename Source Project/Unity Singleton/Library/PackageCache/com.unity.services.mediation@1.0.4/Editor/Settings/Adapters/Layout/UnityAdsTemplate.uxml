@@ -1,0 +1,3 @@
+﻿<UXML xmlns="UnityEngine.UIElements">
+    <TextElement name="Warning" class="unity-ads-warning" text="If you have an existing Unity Ads SDK added through the Package manager or the Asset Store, this may cause a conflict with Unity Monetization SDK. Please remove Unity Ads SDK prior to installing Unity Monetization SDK" />
+</UXML>
