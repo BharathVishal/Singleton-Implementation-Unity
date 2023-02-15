@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638085826230000000
-    m_Hash: 2612502072
+      ticks: 638117268410000000
+    m_Hash: 2723551572
   m_LockFileStatus:
     m_FilePath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
       Singleton/Packages/packages-lock.json
@@ -15,15 +15,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638098695430000000
-    m_Hash: 296911464
+      ticks: 638117268440000000
+    m_Hash: 3777514140
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
   Singleton/Packages
-m_EditorVersion: 2021.3.16f1 (4016570cf34f)
+m_EditorVersion: 2021.3.18f1 (3129e69bc0c7)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -265,7 +265,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.services.analytics
-    version: 4.2.0
+    version: 4.3.0
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -273,7 +273,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -304,13 +304,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.6.12
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.17.7
+- packageId: com.unity.collab-proxy@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.17.7
+  version: 2.0.0
   source: 1
   resolvedPath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
-    Singleton/Library/PackageCache/com.unity.collab-proxy@1.17.7
+    Singleton/Library/PackageCache/com.unity.collab-proxy@2.0.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -387,34 +387,18 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.7
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.6.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    verified: 2.0.0
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -439,24 +423,24 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638036787040000000
-  documentationUrl: 
+  datePublishedTicks: 638095491550000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1641a631fd39029595decb52bdfb641b32ed194c
+    revision: a1b1151e0c90bc327ea95678473c1f3a935b2c9e
     path: 
   unityLifecycle:
-    version: 1.17.7
+    version: 2.0.0
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.18
   source: 1
   resolvedPath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
-    Singleton/Library/PackageCache/com.unity.ide.rider@3.0.16
+    Singleton/Library/PackageCache/com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -506,10 +490,10 @@ m_ResolvedPackages:
     - 3.0.15
     - 3.0.16
     - 3.0.17
+    - 3.0.18
     compatible:
-    - 3.0.16
-    - 3.0.17
-    verified: 3.0.17
+    - 3.0.18
+    verified: 3.0.18
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -527,24 +511,24 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638088746970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.16
+    version: 3.0.18
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.17
   source: 1
   resolvedPath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
-    Singleton/Library/PackageCache/com.unity.ide.visualstudio@2.0.16
+    Singleton/Library/PackageCache/com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -582,7 +566,6 @@ m_ResolvedPackages:
     - 2.0.16
     - 2.0.17
     compatible:
-    - 2.0.16
     - 2.0.17
     verified: 2.0.17
   dependencies:
@@ -608,16 +591,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638059987360000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.17
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -682,13 +665,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.purchasing@4.5.1
+- packageId: com.unity.purchasing@4.5.2
   testable: 0
   isDirectDependency: 1
-  version: 4.5.1
+  version: 4.5.2
   source: 1
   resolvedPath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
-    Singleton/Library/PackageCache/com.unity.purchasing@4.5.1
+    Singleton/Library/PackageCache/com.unity.purchasing@4.5.2
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -775,7 +758,6 @@ m_ResolvedPackages:
     - 4.5.1
     - 4.5.2
     compatible:
-    - 4.5.1
     - 4.5.2
     verified: 4.5.2
   dependencies:
@@ -809,11 +791,11 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.services.analytics
-    version: 4.2.0
+    version: 4.3.0
   keywords:
   - purchasing
   - iap
@@ -828,16 +810,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638024573790000000
-  documentationUrl: 
+  datePublishedTicks: 638062797740000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: 0e6a0e037cbfe72c55e5eff3c186ef29484f6636
+    revision: 2e002e868803fadde53e54c4029e776932314588
     path: 
   unityLifecycle:
-    version: 4.5.1
+    version: 4.5.2
     nextVersion: 
 - packageId: com.unity.services.mediation@1.0.4
   testable: 0
@@ -854,7 +836,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "The Advertisement with Mediation package lets you easily implement
     mediation strategies with various supported third-party ad networks to monetize
     your game, whether you develop in Unity, Xcode, or Android Studio.\n\nGet started
@@ -867,10 +849,21 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.1-preview.1
+    - 0.2.1-preview.2
+    - 0.3.0-preview.3
+    - 0.4.0-preview.1
+    - 0.4.0-preview.2
+    - 0.4.1-preview.1
+    - 0.5.0-preview.4
+    - 0.5.0-preview.5
+    - 0.5.1-preview.1
     - 1.0.4
+    - 1.0.5
     compatible:
     - 1.0.4
-    verified: 1.0.4
+    - 1.0.5
+    verified: 1.0.5
   dependencies:
   - name: com.unity.settings-manager
     version: 1.0.3
@@ -886,7 +879,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -906,9 +899,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637975772110000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3437,13 +3430,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.3
     nextVersion: 
-- packageId: com.unity.services.core@1.6.0
+- packageId: com.unity.services.core@1.7.0
   testable: 0
   isDirectDependency: 0
-  version: 1.6.0
+  version: 1.7.0
   source: 1
   resolvedPath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
-    Singleton/Library/PackageCache/com.unity.services.core@1.6.0
+    Singleton/Library/PackageCache/com.unity.services.core@1.7.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3481,9 +3474,8 @@ m_ResolvedPackages:
     - 1.6.0
     - 1.7.0
     compatible:
-    - 1.6.0
     - 1.7.0
-    verified: 1.6.0
+    verified: 1.7.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3509,24 +3501,24 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638030857680000000
+  datePublishedTicks: 638059514260000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
+    revision: 08a8fcaac21b4eebbb92708e367ad3a276b6f5a6
     path: 
   unityLifecycle:
-    version: 1.6.0
+    version: 1.7.0
     nextVersion: 
-- packageId: com.unity.services.analytics@4.2.0
+- packageId: com.unity.services.analytics@4.3.0
   testable: 0
   isDirectDependency: 0
-  version: 4.2.0
+  version: 4.3.0
   source: 1
   resolvedPath: /Users/bharathvishalg/Documents/GitHub/Unity-Singleton/Source Project/Unity
-    Singleton/Library/PackageCache/com.unity.services.analytics@4.2.0
+    Singleton/Library/PackageCache/com.unity.services.analytics@4.3.0
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -3563,14 +3555,15 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.3.0
     compatible:
-    - 4.2.0
     - 4.3.0
-    verified: 4.2.0
+    verified: 4.3.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.services.core
     version: 1.4.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
   resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3579,7 +3572,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -3597,16 +3590,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637970128630000000
+  datePublishedTicks: 638048846890000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 40445d94118e139ce5bff46afdeb574502a2e3c9
+    revision: 3fa2ec867b9beda505ed6879911d14ba3ae9737e
     path: 
   unityLifecycle:
-    version: 4.2.0
+    version: 4.3.0
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
