@@ -22,6 +22,11 @@ Unity 2021.3.18f1
 ### Preview : 
 ![Alt Text](https://github.com/BharathVishal/Unity-Singleton/blob/master/Preview%20GIFs/1.gif)
 
+#### License : 
+[Apache License 2.0](https://github.com/BharathVishal/Unity-Singleton/blob/master/LICENSE)
+&nbsp;
+
+&nbsp;
 
 
 © 2018-2023. Developed by Bharath Vishal G (https://github.com/BharathVishal). Thank you. :smile:
