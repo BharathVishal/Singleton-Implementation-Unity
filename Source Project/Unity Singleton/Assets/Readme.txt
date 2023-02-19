@@ -1,4 +1,4 @@
-﻿Readme-Singleton Unity
+Readme-Singleton Unity
 ----------------------------
 A sample project explaining the usage of singleton object to hold global game state.
 
@@ -10,7 +10,7 @@ Usage :
 2. Modify the code to suit your needs.
 
 
-© 2018-2021. Developed by Bharath Vishal G (https://github.com/BharathVishal).
+© 2018-2023. Developed by Bharath Vishal G (https://github.com/BharathVishal).
 
 
 
