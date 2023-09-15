@@ -28,7 +28,9 @@ Unity 2022.3.9f1
 
 
 &nbsp;
-
+####
+“Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. and elsewhere.
+&nbsp;
 
 © 2018-2023. Developed by Bharath Vishal G (https://github.com/BharathVishal). Thank you. :slightly_smiling_face:
 
