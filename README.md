@@ -16,7 +16,7 @@ Import the package [Unity-Singleton/Package/Unity Singleton.unitypackage](https:
 
 
 ### IDE :
-Unity 2022.3.9f1
+Unity 2022.3.13f1
 
 
 ### Preview : 
