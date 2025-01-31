@@ -36,7 +36,6 @@ public class Scene_2_Controller : MonoBehaviour {
 
     }
 
-
     public void goto_Scene_1()
     {
         print("invoked");
