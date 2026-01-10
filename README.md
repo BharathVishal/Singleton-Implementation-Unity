@@ -16,7 +16,8 @@ Import the package [Unity-Singleton/Package/Unity Singleton.unitypackage](https:
 
 
 ### IDE :
-Unity 6.2 (6000.2.8f1)
+Unity 6.3 LTS (6000.3.2f1)
+
 
 
 ### Preview : 
@@ -29,5 +30,5 @@ Unity 6.2 (6000.2.8f1)
 
 &nbsp;
 
-© 2018-2025. Developed by Bharath Vishal G (https://github.com/BharathVishal). Thank you. :slightly_smiling_face:
+© 2018-2026. Developed by Bharath Vishal G (https://github.com/BharathVishal). Thank you. :slightly_smiling_face:
 
