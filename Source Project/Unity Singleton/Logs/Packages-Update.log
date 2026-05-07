@@ -521,3 +521,17 @@ The following packages were updated:
   com.unity.multiplayer.center from version 1.0.0 to 1.0.1
   com.unity.purchasing from version 4.12.2 to 4.14.0
   com.unity.xr.legacyinputhelpers from version 2.1.12 to 2.1.13
+
+=== Wed May  6 20:38:50 2026
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ai.navigation from version 2.0.9 to 2.0.12
+  com.unity.collab-proxy from version 2.10.2 to 2.12.4
+  com.unity.ide.rider from version 3.0.38 to 3.0.39
+  com.unity.ide.visualstudio from version 2.0.25 to 2.0.27
+  com.unity.purchasing from version 4.14.0 to 4.15.0
+  com.unity.timeline from version 1.8.9 to 1.8.12
+  com.unity.xr.legacyinputhelpers from version 2.1.13 to 3.0.1
